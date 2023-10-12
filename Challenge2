@@ -1,0 +1,1 @@
+az vm show --resource-group RG_NAME --name VM_NAME --query "{Name:name, ResourceGroup:resourceGroup, Location:location, Tags:tags}" --output json
